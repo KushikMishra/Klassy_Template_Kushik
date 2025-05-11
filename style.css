@@ -1,0 +1,533 @@
+
+
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    padding: 20px 0;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    font-size: 18px;
+    transition: color 0.3s ;
+    
+}
+
+/* nav ul li a.active, */
+nav ul li a:hover {
+    color: orangered;
+}
+
+/* second container */
+.second-container{
+    height: 100%;
+    width:100%;
+    display:flex;
+}
+.left-part{
+    background-image: url(top-left-bg.jpg);
+    background-size: cover;
+    height: 800px;;
+    width:37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding:0 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+h4{
+   font-family: 'Brush Script MT', cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h6{
+    color:white;
+    font-weight:100;
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+.btn{
+    background-color: white;
+    color:orangered;
+    border: none;
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn:hover{
+    background-color: #f8b0b0;
+
+}
+.right-part img{
+   background-size: cover;
+   
+}
+/* About Us Section */
+.section-one{
+    height:700px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.about-left{
+    width:50%;
+}
+.heading{
+    color:orangered;
+    padding-left: 70px;
+    font-size: 17px;
+}
+.abouth{
+    padding-right: 120px;
+    padding-left: 70px;
+    
+    font-weight:900px;
+    line-height: 40px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.p1{
+    padding-left: 70px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 10px;
+    padding-right: 80px;
+}
+.a1{
+    text-decoration: none;
+}
+.aboutimg{
+    display: flex;
+    padding-left: 30px;
+}
+.aimg{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.about-right{
+    padding-right: 90px;
+    position: relative;
+}
+.abovdo{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.play-button {
+   position: absolute;
+    width: 80px;
+    height: 80px;
+    border:1 px solid;
+    background-color: #f74e4e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 220px;
+}
+.play-button:hover{
+    background-color: #fa7c7c;
+    opacity: 0.9;
+}
+
+/* Menu Section */
+.Menu{
+    height: 860px;
+    background-color: #fdf7f7;
+    
+}
+.menu-header{
+    box-sizing: border-box;
+    width:35%;
+    padding-top: 110px;
+}
+
+.menu-header p {
+    color:orangered;
+   font-size: large;
+   padding-left: 160px;
+}
+.menu-header h1 {
+    font-weight:1500px;
+    line-height: 33px;
+    font-size: 38px;
+    color: #222222;
+    
+    padding-left: 160px;
+}
+.menu-food{
+    padding-top: 50px;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.food{
+    box-sizing: border-box;
+    margin-left: 15px;
+    position: relative;
+    overflow: hidden;
+   
+   
+}
+.food:hover .descr{
+    transform: translateY(0);
+}
+
+.descr{
+    position: absolute;
+    box-sizing: border-box;
+    height:250px;
+    width: 284px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: rgb(241, 93, 77);
+    color:white;
+    bottom: 1%;
+    transform: translateY(100%);
+    transition: transform 1s ease;
+}
+.descr h5{
+    font-weight: 20px;
+    font-size: 30px;
+}
+.descr a{
+    text-decoration: none;
+    color: white;
+}
+.price{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color:  rgb(241, 93, 77);
+            color: white;
+            padding: 15px 20px;
+            font-weight: bolder;
+            font-size: 30px;
+}
+.menu-btn{
+    padding-top: 40px;
+    padding-left: 50%;
+    
+}
+.prenex-btn{
+    border:1px;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+    background-color:  #fdf7f7;
+    color:#f74e4e;
+}
+/* Chef Section */
+.chef{
+    height:800px;
+    
+}
+.chef-header{
+    
+    padding-top: 110px;
+   
+}
+.chef-header p{
+    color:orangered;
+   font-size: large;
+   padding-left: 47%;
+}
+.chef-header h1{
+    padding-left: 42%;
+    font-size: 37px;
+    line-height: 20%;
+}
+.chef-img{
+    display: flex;
+    padding-left: 9%;
+    padding-top: 40px;
+}
+.chbox{
+    width: 370px;
+    height:450px;
+    border:1px solid rgb(173, 169, 169);
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding:5px;
+    margin-left: 35px;
+    align-items: center;
+}
+.chef-desN{
+    line-height: 10px;
+    margin-left: 90px;
+}
+.chef-desP{
+    margin-left: 120px;
+}
+
+.chbox:hover{
+    border-color: #f74e4e;
+    
+    .chef-desN{
+        color:  #f74e4e;
+    }
+   
+}
+
+/* Reservation section */
+.reserv{
+    display:flex;
+    height:900px;
+    margin-top: 60px;
+    background-image: url(reservation-bg.jpg);
+}
+.left-res{
+    width:50%;
+    padding-top: 170px;
+}
+.resP1{
+    
+    color: white;
+    font-size: large;
+    font-weight: 10px;
+
+    padding-left: 29%;
+}
+.resP{
+    line-height: 23px; color:white;
+    padding-left: 28%;
+    font-size: 16px;
+}
+.left-res h1{
+    color: white;
+    font-size: 32px;
+    padding-left: 28%;
+    font-weight: bolder;
+    
+}
+.containerpe{
+    display:flex;
+    padding-left: 25%;
+}
+.boxpe{
+    background-color: white;
+    width:480px;
+    height:170px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: relative;
+    
+}
+.psymbol{
+    position: absolute;
+    top:-20%;
+    left:35%;
+    border: 1px;
+    border-radius: 50%;
+    background-color: orangered;
+    width:70px;
+}
+.esymbol{
+    position: absolute;
+    top:-20%;
+    left:35%;
+    border: 1px;
+    border-radius: 50%;
+    background-color: orangered;
+    width:80px;
+}
+.phn{
+    font-size: 23px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 50px;
+    line-height: 10px;
+}
+.no{
+    padding-bottom: 65px;
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+.no:hover{
+    color:#f74e4e;
+    transition: .6s ease;
+}
+.emai{
+    font-size: 23px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 100px;
+    line-height: 10px;
+}
+
+.right-res{
+    padding-left: 3%;
+   padding-top: 120px;
+}
+.containerform{
+    background-color: white;
+    width:510px;
+    height:580px;
+    border-radius: 5px;
+   
+}
+.titleform{
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 12%;
+}
+.form-item{
+    display:grid;
+    gap:15px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+input{
+    
+    height:40px;
+    width:200px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+#km{
+    width:220px;
+        appearance: none;
+        border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+}
+input:active{
+    border-color: #f74e4e;
+}
+
+#textarea{
+    height:160px;
+    width: 465px;
+    margin-left: 21px;
+    border:1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 20px;
+    appearance: none;
+}
+.submit-btn{
+    width:465px;
+    height:43px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    border-style: none;
+    background-color:  rgb(241, 93, 77);
+    margin-top: 16px;
+    margin-left: 21px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #fe6969;
+}
+
+/* Last Section Klassy Week */
+.lastsection{
+    height:950px;
+}
+.phead{
+    padding-top: 80px;
+    color:orangered;
+    font-size: large;
+    padding-left: 47%;
+}
+.descrihead{
+    line-height: 10px;
+    padding-left:42% ;
+    font-size: 35px;
+    font-weight:900;
+}
+.descrihead2{
+    line-height: 10px;
+    padding-left:46% ;
+    font-size: 35px;
+    font-weight:900;
+}
+
+.time{
+    display:flex;
+    padding-top: 40px;
+   justify-content: center;
+    
+}
+.icon{
+    margin-left: 38px;
+}
+.icon:active{
+    .iconname{
+        color: #f74e4e;
+    }
+}
+.iconname{
+    font-weight: bold;
+    margin-left: 17px;
+}
+.klweekimg{
+    padding-top: 10px;
+    padding-left:10%;
+    width:1200px;
+    height:500px;
+}
+
+/* Footer */
+.footer-content{
+    display:flex;
+    box-sizing: border-box;
+    width:100%;
+    height:170px;
+    background-color: #FB5849;
+    
+    
+}
+.imgf{
+    padding-top: 4%;
+    margin-left: 150px;
+}
+.lasttt{
+    color: white;
+    padding-top:30px;
+    margin-left: 150px;
+    
+}
